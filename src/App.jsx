@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from './components/NavBar'
 import { Hero } from "./components/Hero";
 // import Featured from "./components/Featured";
-// import Signup from "./components/Signup";
+import HeroLog from "./components/Hero-Log";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <>
       <NavBar/>
       <Hero />
+      <HeroLog />
       <Footer />
 
       
