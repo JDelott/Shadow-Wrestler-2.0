@@ -15,10 +15,10 @@ const HeroLog = () => {
                 {/* right */}
                 <div className='right'>
                     <h2>Log your shadow wrestling sessions</h2>
-                    <p>Keep track of all your shadow wrestling practice sessions and see your results progress fast!</p>
+                    <p>Keep track of all your shadow wrestling practice sessions and see positive results fast!</p>
                     <div className='input-container'>
-                        {/* <input type='email' placeholder='Enter your email' /> */}
-                        <button className='btn'>Get Started</button>
+                        <input type='email' placeholder='Enter your email' />
+                        <button className='btn'>SignUp/Login</button>
                     </div>
                 </div>
 

@@ -22,15 +22,16 @@ const handleClick = () => setClick(!click)
                     <li>
                         <a href='/'>About</a>
                     </li>
+                    
                     <li>
                         <a href='/'>Videos</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='/'>Journal</a>
                     </li>
                 </ul>
                 <div className='btn-group'>
-                    <button className='btn'>Shadow Wrestler</button>
+                    <button className='btn'>SignUp/Login</button>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}

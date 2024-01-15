@@ -15,16 +15,15 @@ const Footer = () => {
           
          
           <div className='support-links'>
-            <a href='/'>Contact Us</a>
+            <a href='/'>Contact</a>
             <a href='/'>FAQ</a>
-            <a href='/'>Donate</a>
           </div>
-          <div className='social-icons'>
+          {/* <div className='support-links '>
             <a href='/'><FaFacebook /></a>
             <a href='/'><FaReddit /></a>
             <a href='/'><FaInstagram /></a>
             <a href='/'><FaTwitter /></a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
