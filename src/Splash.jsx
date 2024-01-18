@@ -5,20 +5,22 @@ import { Hero } from "./components/Hero";
 import HeroLog from "./components/Hero-Log";
 import HeroTimer from "./components/Hero-Timer";
 import Footer from "./components/Footer";
+// import { Route, Routes, } from "react-router-dom";
 
-function App() {
+
+function Splash() {
   return (
     
     <>
-      <NavBar/>
+      
       <Hero />
       <HeroLog />
       <HeroTimer />
-      <Footer />
+  
 
       
     </>
   );
 }
 
-export default App;
+export default Splash;

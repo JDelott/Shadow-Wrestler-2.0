@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+  max-width:800px;
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 750px;
+  
+}
+.footer {
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
