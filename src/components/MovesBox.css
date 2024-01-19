@@ -1,0 +1,70 @@
+/* MovesBox.css */
+
+.moves-container {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.moves-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.moves-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f81e1eea;
+  margin-bottom: 1rem;
+}
+
+.checkbox-label {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+}
+
+.timer-button {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timer-button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.on-button {
+  background-color: black;
+  color: white;
+}
+
+.off-button {
+  background-color: gray;
+  color: white;
+}
+
+.moves-mute-button,
+.moves-unmute-button {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.moves-mute-button.moves-mute-bg {
+  background-color: #e74c3c;
+}
+
+.moves-unmute-button.moves-unmute-bg {
+  background-color: #2ecc71;
+}

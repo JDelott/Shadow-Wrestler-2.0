@@ -4,9 +4,9 @@ import Footer from './Footer'
 import {Route, Routes} from 'react-router-dom'
 import Splash from '../Splash'
 import About from './about'
-import Timer from './Timer'
+import TimerBox from './TimerBox'
 
-import Login from './Login'
+import LoginSignup from './LoginSignup'
 import WrestlingJournal from './WrestlingJournal'
 import "./App.css"
 
@@ -17,9 +17,9 @@ function App() {
             <Routes >
                 <Route path="/" element={<Splash />} />
                 <Route path="about" element={<About />} /> 
-                <Route path="timer" element={<Timer />} /> 
+                <Route path="timer" element={<TimerBox />} /> 
                 <Route path='journal' element={<WrestlingJournal />} />
-                <Route path='login' element={<Login />} />
+                <Route path='login' element={<LoginSignup />} />
 
             </Routes>
         <Footer />

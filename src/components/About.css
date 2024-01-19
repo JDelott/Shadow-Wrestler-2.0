@@ -4,6 +4,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  
 }
 .content {
   flex: 1 0 auto;
@@ -11,7 +12,10 @@ body {
   text-align: center;
   align-content: center;
   margin: 0 auto;
+  padding-bottom: 450px;
+
 }
+
 .footer {
   flex-shrink: 0;
 }
