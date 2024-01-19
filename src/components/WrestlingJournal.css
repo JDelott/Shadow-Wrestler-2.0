@@ -1,0 +1,40 @@
+/* WrestlingJournal.css */
+
+.wrestling-journal-container {
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 500px;
+  font-family: Arial, sans-serif;
+}
+
+.journal-entry-form {
+  margin-top: 20px;
+ 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

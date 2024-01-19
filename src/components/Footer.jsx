@@ -2,14 +2,16 @@
 
 import React from 'react';
 import './Footer.css';
-import { FaFacebook, FaTwitter, FaReddit, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='footer'>
       <div className='container'>
         <div>
+          <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
           <h1>Shadow<span className='primary'>Wrestler</span></h1>
+        </Link>
         </div>
         <div className='support-section'>
           
@@ -18,12 +20,6 @@ const Footer = () => {
             <a href='/'>Contact</a>
             <a href='/'>FAQ</a>
           </div>
-          {/* <div className='support-links '>
-            <a href='/'><FaFacebook /></a>
-            <a href='/'><FaReddit /></a>
-            <a href='/'><FaInstagram /></a>
-            <a href='/'><FaTwitter /></a>
-          </div> */}
         </div>
       </div>
     </div>
