@@ -2,26 +2,27 @@
 
 .moves-container {
   background-color: #f8f8f8;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem; /* Increased padding */
+  border-radius: 12px; /* Increased border-radius */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  display: inline-block;
 }
 
 .moves-heading {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem; /* Increased font size */
 }
 
 .moves-text {
-  font-size: 2rem;
+  font-size: 3rem; /* Increased font size */
   font-weight: bold;
   color: #f81e1eea;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem; /* Increased margin-bottom */
 }
 
 .checkbox-label {
-  width: 20px;
-  height: 20px;
+  width: 30px; /* Increased width */
+  height: 30px; /* Increased height */
   background-color: #3498db;
 }
 
@@ -29,9 +30,9 @@
   background-color: #3498db;
   color: #fff;
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem; /* Increased padding */
   border: none;
-  border-radius: 4px;
+  border-radius: 8px; /* Increased border-radius */
   cursor: pointer;
 }
 
@@ -40,24 +41,16 @@
   cursor: not-allowed;
 }
 
-.on-button {
-  background-color: black;
-  color: white;
-}
-
-.off-button {
-  background-color: gray;
-  color: white;
-}
-
+.on-button,
+.off-button,
 .moves-mute-button,
 .moves-unmute-button {
   background-color: #3498db;
   color: #fff;
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem; /* Increased padding */
   border: none;
-  border-radius: 4px;
+  border-radius: 8px; /* Increased border-radius */
   cursor: pointer;
 }
 

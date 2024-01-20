@@ -4,8 +4,8 @@ import Footer from './Footer'
 import {Route, Routes} from 'react-router-dom'
 import Splash from '../Splash'
 import About from './about'
-import TimerBox from './TimerBox'
-
+// import TimerBox from './TimerBox'
+import ParentComponent from './ParentBox'
 import LoginSignup from './LoginSignup'
 import WrestlingJournal from './WrestlingJournal'
 import "./App.css"
@@ -17,7 +17,7 @@ function App() {
             <Routes >
                 <Route path="/" element={<Splash />} />
                 <Route path="about" element={<About />} /> 
-                <Route path="timer" element={<TimerBox />} /> 
+                <Route path="timer" element={<ParentComponent />} /> 
                 <Route path='journal' element={<WrestlingJournal />} />
                 <Route path='login' element={<LoginSignup />} />
 

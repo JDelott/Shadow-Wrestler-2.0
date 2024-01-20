@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./TimerBox.css";
 import Moves from './MovesBox';
 
+
 function TimerBox() {
   const [totalSeconds, setTotalSeconds] = useState(300);
   const [remainingSeconds, setRemainingSeconds] = useState(totalSeconds);
@@ -35,13 +36,15 @@ function TimerBox() {
   const seconds = remainingSeconds % 60;
 
   return (
-    
-  
-    <div className="timer-container title-center"> Shadow Wrestler
+    <div className='timer-container'>
+   
+   <div className="border-box timer-container title-center"> 
+  <h2> Shadow Wrestler </h2>
       <p className="timer-text timer-text-lg">
         {minutes < 10 ? `${minutes}` : minutes}:
         {seconds < 10 ? `0${seconds}` : seconds}
       </p>
+ 
       <div className="space-x-4">
         <button
           onClick={startTimer}
@@ -74,7 +77,9 @@ function TimerBox() {
       </div>
       <Moves />
     </div>
-  
+    </div>
+
+
   );
 }
 
