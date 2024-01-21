@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero-Timer.css'
 import { Link } from 'react-router-dom'
 
-import gif from '../assets/ShadowWrestlerGif.gif'
+import gif from '../assets/ShadowWrestlerGif.png'
 
 const HeroTimer = () => {
     return (

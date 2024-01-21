@@ -54,10 +54,12 @@
   background-color: #3498db;
   color: #fff;
   font-weight: bold;
-  padding: 1rem 2rem; /* Increased padding */
+  padding: 0.5rem 1rem; /* Adjusted padding */
   border: none;
-  border-radius: 8px; /* Increased border-radius */
+  border-radius: 4px; /* Adjusted border-radius */
   cursor: pointer;
+  margin-right: 10px;
+  font-size: 1rem; /* Adjusted font size */ /* Adjust the margin as needed */
 }
 
 .moves-mute-button.moves-mute-bg {

@@ -12,6 +12,7 @@
 
 .signup img {
     width: 300px;
+    border-radius: 15px;
 }
 
 .signup img:hover {

@@ -8,7 +8,7 @@ import './ParentBox.css';
 
 function ParentBox() {
   return (
-    <div >
+    <div className='upper-space'>
       <TitleBox />
       <div className="parent-container">
         {/* Render TimerBox and Moves components */}

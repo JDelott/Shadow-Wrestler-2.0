@@ -37,7 +37,8 @@ function TimerBox() {
   const seconds = remainingSeconds % 60;
 
   return (
-    <div className='border-box timer-container'>
+    <div className='timer-space-container'>
+    <div className='border-box'>
    
    <div className="timer-container title-center"> 
   <h2 className='title-sw'> Shadow Wrestler </h2>
@@ -51,14 +52,14 @@ function TimerBox() {
         <button
           onClick={startTimer}
           disabled={isRunning}
-          className={`timer-button ${isRunning ? 'disabled' : ''}`}
+          className={`timer-button  ${isRunning ? 'disabled' : ''}`}
         >
           Start
         </button>
         <button
           onClick={stopTimer}
           disabled={!isRunning}
-          className={`timer-button ${!isRunning ? 'disabled' : ''}`}
+          className={`timer-button stop-button ${!isRunning ? 'disabled' : ''}`}
         >
           Stop
         </button>
@@ -79,6 +80,7 @@ function TimerBox() {
         </div>
       </div>
       <Moves />
+    </div>
     </div>
     </div>
     

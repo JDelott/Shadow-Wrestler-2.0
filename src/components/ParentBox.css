@@ -1,0 +1,13 @@
+/* ParentComponent.css */
+.upper-space{
+    padding-top: 100px;
+
+}
+
+.parent-container {
+  /* display:flex; */
+  /* flex-direction:column; */
+  align-items: center;
+  justify-content: center;
+
+}
