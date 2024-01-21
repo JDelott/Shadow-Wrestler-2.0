@@ -6,24 +6,31 @@
   border-color: #333;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px;
-  margin-left: 700px;
-  margin-right: 700px;
-  margin-top: 50px;
+
+ 
+}
+
+.timer-border-box {
+  background-color: #f8f8f8;
+  border-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Adjust the margin-bottom value */
+  margin-top: 20px; /* Adjust the margin-top value */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .timer-container {
-  
   background-color: #f8f8f8;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  padding-bottom: 100px; /* Reduced padding-bottom */
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center children horizontally */
   justify-content: center; /* Center children vertically */
-  min-height: 100vh; /* Full height of the viewport */
+  min-height: 50vh; /* Adjust the min-height value */
 }
 
 .title-center {
@@ -45,10 +52,11 @@
   background-color: #3498db;
   color: #fff;
   font-weight: bold;
-  padding: 0.3rem 0.7rem; /* Reduced padding */
+  padding: 0.1rem 0.2rem; /* Reduced padding */
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  
 }
 
 .timer-button:disabled {
@@ -61,8 +69,8 @@
   margin-top: 0.5rem;
   margin: 0 auto;
   width: fit-content;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
   
   /* Reduced margin-top */
 }
@@ -70,18 +78,28 @@
 .timer-heading {
   font-weight: bold;
   font-size: 1.2rem; /* Reduced font size */
+  padding-bottom: 10px;
 }
 
 .set-timer-duration-text {
   font-size: 1rem; /* Reduced font size */
   color: #333;
+  padding-bottom: 10px;
+  padding-top: 20px;
+
 }
+
 
 .input {
   margin-top: 0.3rem; /* Reduced margin-top */
+  
 }
 
-h2 {
-  padding: 50px;
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  padding-bottom: 250px;
+  margin-top: auto;
   
 }

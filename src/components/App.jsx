@@ -3,7 +3,7 @@ import Navbar from './NavBar'
 import Footer from './Footer'
 import {Route, Routes} from 'react-router-dom'
 import Splash from '../Splash'
-import About from './about'
+// import About from './about'
 // import TimerBox from './TimerBox'
 import ParentComponent from './ParentBox'
 import LoginSignup from './LoginSignup'
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
             <Routes >
                 <Route path="/" element={<Splash />} />
-                <Route path="about" element={<About />} /> 
+                {/* <Route path="about" element={<About />} />  */}
                 <Route path="timer" element={<ParentComponent />} /> 
                 <Route path='journal' element={<WrestlingJournal />} />
                 <Route path='login' element={<LoginSignup />} />

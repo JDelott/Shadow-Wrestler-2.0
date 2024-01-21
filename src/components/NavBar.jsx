@@ -22,10 +22,10 @@ const handleClick = () => setClick(!click)
                     <li>
                         <Link to='/'>Home </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to='/about'>About</Link>
                     </li>
-                    
+                     */}
                     <li>
                         <a href='/timer'>Timer</a>
                     </li>

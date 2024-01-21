@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './MovesBox.css';
 
+
 const moves = ['SHOOT', 'SPRAWL', 'BLOCK'];
 
 function Moves() {

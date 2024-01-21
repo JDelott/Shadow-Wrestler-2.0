@@ -2,15 +2,20 @@
 
 .moves-container {
   background-color: #f8f8f8;
-  padding: 1rem; /* Increased padding */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
   border-radius: 12px; /* Increased border-radius */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
   display: inline-block;
+
 }
 
 .moves-heading {
   font-weight: bold;
-  font-size: 2rem; /* Increased font size */
+  font-size: 1.5rem; /* Increased font size */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .moves-text {
@@ -18,6 +23,7 @@
   font-weight: bold;
   color: #f81e1eea;
   margin-bottom: 1.5rem; /* Increased margin-bottom */
+  
 }
 
 .checkbox-label {
