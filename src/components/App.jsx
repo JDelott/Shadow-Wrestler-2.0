@@ -12,6 +12,7 @@ import WrestlingJournal from './WrestlingJournal'
 import "./App.css"
 
 function App() {
+  
   return (
   
     <div>

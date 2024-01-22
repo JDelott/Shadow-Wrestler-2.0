@@ -4,6 +4,7 @@ import React from 'react';
 import TimerBox from './TimerBox';
 import TitleBox from './TitleBox';
 
+
 import './ParentBox.css';
 
 function ParentBox() {
@@ -15,6 +16,7 @@ function ParentBox() {
         <TimerBox />
       
       </div>
+      {/* <Moves /> */}
     </div>
   );
 }

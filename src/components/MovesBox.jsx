@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MovesBox.css';
-
+import { speak } from './SpeechUtils';
 
 const moves = ['SHOOT', 'SPRAWL', 'BLOCK'];
 
@@ -25,22 +25,11 @@ function Moves() {
     return () => clearInterval(moveInterval);
   }, [isMuted, isCommandsEnabled]);
 
-  const speak = (text) => {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      speechSynthesis.speak(utterance);
-    } else {
-      console.error('Speech synthesis is not supported in this browser.');
-    }
-  };
-
   return (
-   
     <div className="moves-container">
       <h2 className="moves-heading">Current Move:</h2>
       <div className="moves-text moves-display">{currentMove}</div>
       <div className="flex items-center space-x-4">
-        {/* <label className="checkbox-label ml-2"></label> */}
         <div className="flex space-x-4">
           <button
             onClick={() => setIsCommandsEnabled(!isCommandsEnabled)}
@@ -63,7 +52,6 @@ function Moves() {
         </div>
       </div>
     </div>
-
   );
 }
 
