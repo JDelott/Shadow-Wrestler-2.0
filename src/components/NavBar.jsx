@@ -5,8 +5,6 @@ import './Navbar.css'
 
 
 
-
-
 const Navbar = () => {
 const [click, setClick] = useState(false)
 const handleClick = () => setClick(!click)
@@ -14,6 +12,7 @@ const handleClick = () => setClick(!click)
 
     return (
         <div className='header'>
+     
             <div className='container'>
                 <Link  to="/">
                 <h1>Shadow<span className='primary'>Wrestler</span></h1>

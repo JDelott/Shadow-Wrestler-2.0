@@ -9,6 +9,13 @@
 
  
 }
+.timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: default; /* Ensure the default cursor */
+}
 
 .timer-space-container {
   max-width: 600px;
@@ -49,12 +56,14 @@
 .timer-text {
   font-size: 2rem; /* Reduced font size */
   font-weight: bold;
+  cursor: default;
 }
 
 .timer-text-lg {
   font-size: 3rem; /* Reduced font size */
   padding-top: 0.5rem; /* Reduced padding-top */
   padding-bottom: 0.5rem; /* Reduced padding-bottom */
+  cursor: default;
 }
 
 .timer-button {

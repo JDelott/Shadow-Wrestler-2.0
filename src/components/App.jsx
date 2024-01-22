@@ -8,10 +8,12 @@ import Splash from '../Splash'
 import ParentComponent from './ParentBox'
 import LoginSignup from './LoginSignup'
 import WrestlingJournal from './WrestlingJournal'
+
 import "./App.css"
 
 function App() {
   return (
+  
     <div>
         <Navbar />
             <Routes >
@@ -24,6 +26,7 @@ function App() {
             </Routes>
         <Footer />
     </div>
+   
   )
 }
 

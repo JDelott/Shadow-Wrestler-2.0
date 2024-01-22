@@ -43,10 +43,10 @@ function TimerBox() {
    <div className="timer-container title-center"> 
   <h2 className='title-sw'> Shadow Wrestler </h2>
   <div className='timer-border-box'>
-      <p className="timer-text timer-text-lg">
+      <div className='timer-display'>
         {minutes < 10 ? `${minutes}` : minutes}:
         {seconds < 10 ? `0${seconds}` : seconds}
-      </p>
+      </div>
  
       <div >
         <button

@@ -11,11 +11,20 @@
 
 }
 
+.moves-display {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: default; /* Ensure the default cursor */
+}
+
 .moves-heading {
   font-weight: bold;
   font-size: 1.5rem; /* Increased font size */
   padding-top: 20px;
   padding-bottom: 20px;
+  cursor: default;
 }
 
 .moves-text {

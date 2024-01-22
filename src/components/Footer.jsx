@@ -18,7 +18,7 @@ const Footer = () => {
          
           <div className='support-links'>
             <a href='/'>Contact</a>
-            <a href='/'>FAQ</a>
+          
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ function Moves() {
    
     <div className="moves-container">
       <h2 className="moves-heading">Current Move:</h2>
-      <p className="moves-text">{currentMove}</p>
+      <div className="moves-text moves-display">{currentMove}</div>
       <div className="flex items-center space-x-4">
         {/* <label className="checkbox-label ml-2"></label> */}
         <div className="flex space-x-4">
